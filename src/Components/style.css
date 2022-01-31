@@ -1,0 +1,24 @@
+.main-div {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom:-5vh;
+    font-size: 12vh;
+    left:50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    font-size: 12vh;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
